@@ -1,0 +1,144 @@
+
+
+/* FIRST TYPE OF GRID */
+
+
+
+.grid-item {
+
+      border: 1px solid #000000;
+      padding: 10px;
+
+}
+
+#grid1{
+
+      background-image: url('./img/w2.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+/* SECOND APPLICATION OF GRID */
+
+
+.container{
+
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+
+}
+
+
+.top-row, .bottom-row{
+
+      /* arranges horizontally */
+      display: flex; 
+
+}
+
+
+.box {
+
+width: 50%;
+border: 1px solid #000000;
+padding: 10px;
+height: 100vh;
+
+}
+
+
+
+/* CSS FLOAT */
+
+
+.float-container{ 
+
+      display: flex;
+
+      flex-direction: column;
+      height: 40vh;
+      align-items: center;
+      justify-content: center;
+
+
+
+}
+
+
+.floated {
+
+      width: 100px;
+      height: 100px;
+      background-color: #000000;
+      float:right
+
+}
+
+.content{
+margin-right: 120px;
+}
+
+
+.positioned {
+
+      background-color: aqua;
+      top: 50px;
+      left: 100px;
+      width: 100px;
+      height: 100px;
+      position: relative;
+}
+
+
+.positioned2 {
+
+      background-color: red;
+      top: 50px;
+      left: 100px;
+      width: 100px;
+      height: 100px;
+      position: fixed;
+}
+
+
+.Box-animation{
+
+      width: 100px;
+      height: 100px;
+      top: 50px;
+      left: 700px;
+      margin-left: 300px;
+      background-color: brown;
+      animation: grow-shrink 2s infinite alternate;
+}
+
+
+@keyframes grow-shrink {
+
+      0%{
+            transform: scale(1);
+      }
+
+      100% {
+
+            transform: scale(1.5);
+      }
+}
+
+
+.textT {
+      font-size: 72px;
+      line-height: 1;
+}
+
+.highlights {
+      color: red;
+}
